@@ -2,7 +2,7 @@ const scuberHq = 42;
 const blockDistanceInFeet = 264;
 
 function distanceFromHqInBlocks(someValue) {
-    return Math.abs(someValue - scuberHq); 
+    return Math.abs(someValue - scuberHq);  // Using Math.abs ensures a positive value is returned
 }
 
 console.log(distanceFromHqInBlocks(43)); 
